@@ -1,0 +1,23 @@
+<h1><%= data.pageTitle %></h1>
+
+<ul> <!--inserts HTML elements, with JS properties -->
+<% data.properties.forEach(function(property, index){ %>
+   <li>
+      <%= property.ownerName %>
+      <br />
+      <%= property.address %>
+      <br />
+      <%= property.city %>
+      <br />
+      <%= property.state %>
+   </li>
+<%   }); %>
+</ul>
+<%= %>
+
+
+<!-- <% %> //evaluate JS -->
+
+<!-- <%- %> //render HTML as a string -->
+
+<!-- <%= %> //prints variable asked for -->
