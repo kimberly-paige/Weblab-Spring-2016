@@ -1,0 +1,23 @@
+{
+  "name": "weblab-js2-day1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WebDevBootcamp/weblab-js2-day1.git"
+  },
+  "author": "David Jones <null@rackfx.com> (rackfx.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WebDevBootcamp/weblab-js2-day1/issues"
+  },
+  "homepage": "https://github.com/WebDevBootcamp/weblab-js2-day1",
+  "dependencies": {
+    "ejs": "^2.4.1",
+    "express": "^4.13.4"
+  }
+}
