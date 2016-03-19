@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>Classic Layouts (oooooo, retro!)</title>
+      <style media="screen">
+
+      body{
+         padding: 0;
+         margin: 0;
+      }
+
+      /*header*/
+      .header{
+         background-color: lightgreen;
+      }
+
+      /*content*/
+      .content {
+         background-color: lightgray;
+         display: flex;
+      }
+
+      /*applies to immediate child of content that is a div*/
+      .content>div{
+         float: left;
+
+      }
+
+      .sidebar {
+         background-color: magenta;
+         width: 25%;
+      }
+
+      .main {
+         background-color: #fff;
+         width: 50%;
+      }
+
+      .ads {
+         background-color: cyan;
+         width: 25%;
+      }
+
+      /*footer*/
+      .footer{
+         background-color: lightblue;
+         
+      }
+
+      /*can add this class through out page to clear any floats*/
+      .clearfix:after {
+         content: ""; /*clear fix*/
+         display: block; /*must be block, as cannot clear a non-block element*/
+         height: 0;
+         clear: both; /*right and left*/
+      }
+
+      </style>
+   </head>
+
+   <body>
+      <div class="header">
+         Header
+      </div>
+      <div class="content clearfix">
+         <div class="sidebar">
+            <ul>
+               <li>
+                  <a href="#">link 1</a>
+               </li>
+               <li>
+                  <a href="#">link 2</a>
+               </li>
+               <li>
+                  <a href="#">link 3</a>
+               </li>
+               <li>
+                  <a href="#">link 4</a>
+               </li>
+            </ul>
+         </div>
+         <div class="main">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, unde! Qui, esse veritatis fugiat consequatur, optio ea atque aliquid dicta quam repellat itaque placeat minima? Quas similique quos commodi, cum!</p>
+            <p>Sed quas aliquid vel laudantium, saepe impedit rerum voluptas et illo, reiciendis officiis cupiditate quaerat dolore, nesciunt sunt facilis commodi veritatis ducimus ab atque repellat explicabo tempora doloribus. Modi, asperiores.</p>
+            <p>Tenetur voluptatibus quia porro voluptates fuga perspiciatis ipsa velit, nostrum, fugit inventore reprehenderit vero maxime qui ducimus unde iusto doloribus cupiditate. Voluptatem sunt reiciendis qui iure reprehenderit tenetur earum corporis.</p>
+            <p>Eveniet exercitationem, doloribus repellat quam alias nihil, libero mollitia eos delectus inventore maxime vitae aut perferendis deleniti, quo repudiandae animi praesentium nobis earum similique veniam, quidem neque voluptatum. Debitis, voluptate.</p>
+            <p>Commodi neque ipsum tempora eos magni, fuga at voluptates corrupti distinctio accusantium expedita incidunt voluptatibus deleniti, natus rem quam iusto ab rerum voluptatem est cupiditate aperiam sed nostrum placeat. Magni?</p>
+         </div>
+         <div class="ads">
+            ad space
+         </div>
+      </div>
+      <div class="footer">
+         footer
+      </div>
+   </body>
+</html>

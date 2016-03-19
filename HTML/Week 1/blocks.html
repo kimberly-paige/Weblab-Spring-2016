@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>BlockBlockBlockBlock</title>
+      <style media="screen">
+         header,    /*multiple elements can use the same rule, seperated by commas*/
+         div,
+         footer{
+            background-color:  tan;
+            /*display: block;*/ /*default behavior*/
+            /*display: inline; /*inline means only as wide as the content that is inside of them, can display some padding but NOT margin*/*/
+            display: inline-block; /*still only as wide as content, but respects margin AND padding*/
+            padding: 2em;
+            margin: 3em;
+         }
+      </style>
+   </head>
+
+   <body> <!--parent-->
+      <!--<artile class="film-review"> </article> -->
+      <header> <!--child of body-->
+         <h1>
+            Top Bar Header
+         </h1>
+      </header>
+
+      </header>
+      <div> <!--child of body-->
+         <h1>
+            Some header
+         </h1> <!--siblings, kids of body-->
+         <p> <!--siblings, kids of body-->
+            Some paragraph text here
+         </p>
+
+         <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSOdJphp0SJ2W4Us8PjsQ17TtYpUI1FoQyJJZOje4xCapuv06zgaw" title="gnome lovers" alt="gnome couple on a swing"/> <!--add titles and alt for e-readers for blind-->
+      </div>
+
+      <footer>
+            Here's the footer
+      </footer>
+
+      <article class="someArticle"> <!---allows to share a self contained content, ie blog post-->
+         <header>
+            <h1>
+               Article Name <!--blog or post title-->
+            </h1>
+         </header>
+         <section class"mainSection">
+            <p>
+               some cool catchy content
+            </p>
+         </section>
+         <section class="secondaryContent">
+               <article class="someQuotes">
+                  <p>
+                     "Duuuuuude"
+                  </p>
+                  <footer>
+                     time/date stamp goes here.
+                  </footer>
+               </article>
+         </section>
+      </article>
+
+   </body>
+</html>

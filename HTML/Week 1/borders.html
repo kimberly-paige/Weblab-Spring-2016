@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>Borders</title>
+      <style media="screen">
+         .container {
+            /*border-width: 1px;  /*need all 3 rules when styling borders*/
+            border-style: double;
+            border-color: #000;*/
+            border: 15px solid transparent;  /*shortcut syntax*/
+            /*border-width: 0 0 0 10px;*/
+         }
+
+         .container:hover {
+            border-color: red;
+            cursor: pointer;
+            color: blue;
+            font-size: 10rem        /*pseudo class, id not yet in page*/
+         }
+
+
+      </style>
+   </head>
+   <body>
+      <div class="container">
+         <p>
+          text
+         </p>
+      </div>
+   </body>
+</html>

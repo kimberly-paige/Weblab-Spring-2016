@@ -1,0 +1,21 @@
+.container {
+   max-width: 500px;
+   min-width: 350px;
+   margin: 0 auto; /*center of page, 0 top and bottom, equal from side to side*/
+}
+
+h1, p {
+   font-family: sans-serif;
+}
+
+
+@media only screen and (min-width: 501px), screen and (max-height: 700px){
+   .container {
+      max-width: 800px;
+      font-size: 2rem;
+   }
+
+   h1{
+      font-family: serif;
+   }
+}

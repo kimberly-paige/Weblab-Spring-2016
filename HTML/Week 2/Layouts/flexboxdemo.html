@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>Flexbox Demo</title>
+      <style media="screen">
+
+      body{
+         padding: 0;
+         margin: 0;
+      }
+
+      .boxes {
+         display: flex;
+         flex-direction: row;
+         flex-wrap: wrap;
+         justify-content: center;
+         align-items: center; /*perpendicular flow*/
+         height: 100vh; /*viewport height, %*/
+         background-color: lightblue;
+      }
+
+      .box {
+         background-color: #ccc;
+         border: 1px solid darkgray;
+         /*width: 100px;*/
+         /*flex: 1 1 auto;*/
+         flex-grow: 1; /*units=ratio to grow by, 1:1*/
+         flex-shrink: 1; /*ratio to shrink by*/
+         flex-basis: auto; /*default size of element from start, before shrink*/
+         min-width: 100px;
+         height: 100px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+      }
+
+      .box:nth-child(4){
+         flex-grow: 5; /*5x larger than siblings*/
+      }
+
+      /*finds last box in chain*/
+      .box:last-child{
+         flex-grow: 0.5;
+      }
+
+
+      </style>
+   </head>
+   <body>
+      <div class="boxes">
+         <div class="box">1</div>
+         <div class="box">2</div>
+         <div class="box">3</div>
+         <div class="box">4</div>
+         <div class="box">5</div>
+      </div>
+
+   </body>
+</html>

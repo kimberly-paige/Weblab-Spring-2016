@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>CSS Transitions</title>
+      <style media="screen">
+      .block {
+         width: 200px;
+         height: 200px;
+         background-color: red;
+         color: #000;
+         /*transition-delay: 0;
+         transition-duration: 1s;
+         transition-property: color;
+         transition-timing-function: ease;*/
+         transition: color 1s ease 0s,
+                     background-color 2s linear 0s,
+                     border-radius 10s ease 0s,
+                     transform 5s ease 0s;
+
+         /*short hand = transition: property duration timing function delay, next property you apply to*/
+
+      }
+
+      .block:hover {
+         color: #fff;
+      }
+
+      .rounded {
+         background-color: blue;
+         border-radius: 100px;
+      }
+
+      .moved {
+         transform : translate(300px, 100px) rotate(360deg) skew(20deg, 45deg) scale(0.5);
+
+      }
+
+      </style>
+
+
+      <style media="print">      /*@media print , way to start an external media file*/
+         body {
+            font-size: 18px;
+         }
+
+         .banner {
+            dispaly: none;
+         }
+
+         a{
+            color: #000;
+            text-decoration: none;
+         }
+
+
+
+
+      </style>
+
+
+      <script type="text/javascript" src="http://code.jquery.com/jquery-2.2.0.min.js"></script>
+      <script type="text/javascript">
+         $(function (){
+            var block = $('.block');
+            $('.button1').on('click', function(){
+               block.toggleClass('rounded');
+            });
+
+            $('.button2').on('click', function (){
+               block.toggleClass('moved');
+            });
+         });
+
+      </script>
+
+   </head>
+   <body>
+      <!-- Buttons -->
+      <button type="button" name="button1" class="button1">Click Me!</button>
+      <button type="button" name="button2" class="button2">and me!</button>
+      <!-- Hello -->
+
+      <div class="block">
+         Hello, World!
+      </div>
+   </body>
+</html>
