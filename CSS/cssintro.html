@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>
+         CSS Intro
+      </title>
+      <style media="screen" > /*specifies screen, TV, print (disables links)etc*/
+         p {
+            font-family: sans-serif;
+         }
+
+         p>a {
+            color: pink;
+            border: none;
+         }
+
+         a {
+            border: 1px dotted #333;
+         }
+
+         .header {
+            border: 1px solid red;
+            property: value;
+         }
+
+         #special {
+            color: aliceblue;
+         }
+
+      </style>
+
+   </head>
+
+   <body>
+      <div class="header">
+         <h1>
+            Header Text
+         </h1>
+      </div>
+
+      <div class="content">
+         <p>
+            Some content goes <a href="http://www.google.com">here</a>.
+            <span>
+               <a href="something.com">sample</a>
+            </span>
+         </p>
+         <p id="special">
+            Some more content.
+         </p>
+         <a href="http://bing.com">Search</a>
+      </div>
+
+      <div class="footer">
+         copyright &copy; 2016
+      </div>
+   </body>
+</html>
