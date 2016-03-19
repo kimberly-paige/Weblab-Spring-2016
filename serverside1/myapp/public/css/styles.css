@@ -1,0 +1,19 @@
+body {
+   /*display: flex;*/
+   height: 100vh;
+   width: 100%;
+   background-color: black;
+   color: #FFF;
+}
+
+
+a {
+   text-decoration: none;
+   color: cyan;
+}
+
+li {
+   list-style: none;
+   color: lavender;
+   font-size: 18px;
+}
