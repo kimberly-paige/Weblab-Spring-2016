@@ -4,8 +4,6 @@
 body {
    padding: 0;
    margin: 0;
-   /*display: flex;*/
-   /*flex-direction: column; /*vertical*/
 }
 
 .content {
@@ -32,14 +30,13 @@ body {
    font-family: 'Cabin', sans-serif;
    /*color: #2f4f4f;*/
    color: #454444;
-   line-height: 1.5;
+   line-height: 1.25;
    text-align:justify;
    font-size: 18px;
    width: 72%;
    padding: 15px;
    margin-left: 25%;
    margin-right: 8%;
-
 }
 
 a {
@@ -51,6 +48,7 @@ h1 {
    text-align: center;
    font-size: 3em;
    font-family: 'Emilys Candy', cursive;
+   text-shadow: 2px 2px 6px #c6c6c6;
 
 }
 
@@ -106,82 +104,44 @@ li a:hover {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
    /*Chapter 2*/
 
-.contentposition2 {
-         font-family: 'Cabin', sans-serif;
-         line-height: 1.2;
-         text-align:justify;
-         font-size: 18px;
-         display: inline-block;
-         width: 900px;
-         margin-left: 11px;
-      }
 
-.bottomnav2 {
-         font-family: 'Cabin', sans-serif;
-         text-align:center;
-         font-size: 18px;
-         display: inline-block;
-         width: 900px;
-         margin-left: 11px;
-      }
+
 
 #note1 {
       font-family: 'Cabin', sans-serif;
       text-align:justify;
       font-size: 18px;
-      display: block;
-      width: 900px;
-      margin-left: 209px;
+      margin-left: 22%;
    }
 
 #note2 {
       font-family: 'cabin', sans-serif;
       text-align:justify;
       font-size: 18px;
-      display: block;
-      width: 900px;
-      margin-left: 237px;
+      margin-left: 32%;
    }
 
 #note3 {
       font-family: 'Cabin', sans-serif;
       text-align:justify;
       font-size: 18px;
-      display: block;
-      width: 900px;
-      margin-left: 286px;
+      margin-left: 39%;
    }
 
 #note4 {
       font-family: 'Cabin', sans-serif;
       text-align:justify;
       font-size: 18px;
-      display: block;
-      width: 900px;
-      margin-left: 345px;
+      margin-left: 47%;
    }
 
 .poem {
       font-family: 'Cabin', sans-serif;
       line-height: 1.2
-      text-align:justify;
       font-size: 18px;
-      display: block;
-      width: 900px;
-      margin-left: 13px;
+      margin-left: 30%;
    }
 
 
@@ -189,355 +149,229 @@ li a:hover {
 
 #smoke1 {
    font-family: 'Cabin', sans-serif;
-   text-align:justify;
    font-size: 18px;
-   display: block;
-   width: 900px;
-   margin-left: 206px;
+   margin-left: 28%;
 }
 #smoke2 {
    font-family: 'Cabin', sans-serif;
-   text-align:justify;
    font-size: 18px;
-   display: block;
-   width: 900px;
-   margin-left: 197px;
+   margin-left: 27%;
 }
 #smoke3 {
    font-family: 'Cabin', sans-serif;
-   text-align:justify;
    font-size: 18px;
-   display: block;
-   width: 900px;
-   margin-left: 184px;
+   margin-left: 25%;
 }
 #smoke4 {
    font-family: 'Cabin', sans-serif;
-   text-align:justify;
    font-size: 18px;
-   display: block;
-   width: 900px;
-   margin-left: 173px;
+   margin-left: 23%;
 }
 #smoke5 {
    font-family: 'Cabin', sans-serif;
-   text-align:justify;
    font-size: 18px;
-   display: block;
-   width: 900px;
-   margin-left: 155px;
+   margin-left: 21%;
 }
 #smoke6 {
    font-family: 'Cabin', sans-serif;
-   text-align:justify;
    font-size: 18px;
-   display: block;
-   width: 900px;
-   margin-left: 161px;
+   margin-left: 22%;
 }
 #smoke7 {
    font-family: 'Cabin', sans-serif;
-   text-align:justify;
    font-size: 18px;
-   display: block;
-   width: 900px;
-   margin-left: 170px;
+   margin-left: 23%;
 }
 #smoke8 {
    font-family: 'Cabin', sans-serif;
-   text-align:justify;
    font-size: 18px;
-   display: block;
-   width: 900px;
-   margin-left: 176px;
+   margin-left: 24%;
 }
 #smoke9 {
    font-family: 'Cabin', sans-serif;
-   text-align:justify;
    font-size: 18px;
-   display: block;
-   width: 900px;
-   margin-left: 185px;
+   margin-left: 26%;
 }
 #smoke10 {
    font-family: 'Cabin', sans-serif;
-   text-align:justify;
    font-size: 18px;
-   display: block;
-   width: 900px;
-   margin-left: 200px;
+   margin-left: 27%;
 }
 #smoke11 {
    font-family: 'Cabin', sans-serif;
-   text-align:justify;
    font-size: 18px;
-   display: block;
-   width: 900px;
-   margin-left: 197px;
+   margin-left: 27%;
 }
 #smoke12 {
    font-family: 'Cabin', sans-serif;
-   text-align:justify;
    font-size: 18px;
-   display: block;
-   width: 900px;
-   margin-left: 176px;
+   margin-left: 25%;
 }
 #smoke13 {
    font-family: 'Cabin', sans-serif;
-   text-align:justify;
    font-size: 18px;
-   display: block;
-   width: 900px;
-   margin-left: 165px;
+   margin-left: 23%;
 }
 #smoke14 {
    font-family: 'Cabin', sans-serif;
-   text-align:justify;
    font-size: 18px;
-   display: block;
-   width: 900px;
-   margin-left: 148px;
+   margin-left: 20%;
 }
 #smoke15 {
    font-family: 'Cabin', sans-serif;
-   text-align:justify;
    font-size: 18px;
-   display: block;
-   width: 900px;
-   margin-left: 132px;
+   margin-left: 18%;
 }
 #smoke16 {
    font-family: 'Cabin', sans-serif;
-   text-align:justify;
    font-size: 18px;
-   display: block;
-   width: 900px;
-   margin-left: 119px;
+   margin-left: 16%;
 }
 #smoke17 {
    font-family: 'Cabin', sans-serif;
-   text-align:justify;
    font-size: 18px;
-   display: block;
-   width: 900px;
-   margin-left: 119px;
+   margin-left: 16%;
 }
 #smoke18 {
    font-family: 'Cabin', sans-serif;
-   text-align:justify;
    font-size: 18px;
-   display: block;
-   width: 900px;
-   margin-left: 129px;
+   margin-left: 17%;
 }
 #smoke19 {
    font-family: 'Cabin', sans-serif;
-   text-align:justify;
    font-size: 18px;
-   display: block;
-   width: 900px;
-   margin-left: 140px;
+   margin-left: 19%;
 }
 #smoke20 {
    font-family: 'Cabin', sans-serif;
-   text-align:justify;
    font-size: 18px;
-   display: block;
-   width: 900px;
-   margin-left: 154px;
+   margin-left: 21%;
 }
 #smoke21 {
    font-family: 'Cabin', sans-serif;
-   text-align:justify;
    font-size: 18px;
-   display: block;
-   width: 900px;
-   margin-left: 166px;
+   margin-left: 23%;
 }
 #smoke22 {
    font-family: 'Cabin', sans-serif;
-   text-align:justify;
    font-size: 18px;
-   display: block;
-   width: 900px;
-   margin-left: 178px;
+   margin-left: 25%;
 }
 #smoke23 {
    font-family: 'Cabin', sans-serif;
-   text-align:justify;
    font-size: 18px;
-   display: block;
-   width: 900px;
-   margin-left: 192px;
+   margin-left: 23%;
 }
 #smoke24 {
    font-family: 'Cabin', sans-serif;
-   text-align:justify;
    font-size: 18px;
-   display: block;
-   width: 900px;
-   margin-left: 186px;
+   margin-left: 25%;
 }
 #smoke25 {
    font-family: 'Cabin', sans-serif;
-   text-align:justify;
    font-size: 18px;
-   display: block;
-   width: 900px;
-   margin-left: 170px;
+   margin-left: 23%;
 }
 #smoke26 {
    font-family: 'Cabin', sans-serif;
-   text-align:justify;
    font-size: 18px;
-   display: block;
-   width: 900px;
-   margin-left: 156px;
+   margin-left: 21%;
 }
 #smoke27 {
    font-family: 'Cabin', sans-serif;
-   text-align:justify;
    font-size: 18px;
-   display: block;
-   width: 900px;
-   margin-left: 138px;
+   margin-left: 19%;
 }
 #smoke28 {
    font-family: 'Cabin', sans-serif;
-   text-align:justify;
    font-size: 18px;
-   display: block;
-   width: 900px;
-   margin-left: 136px;
+   margin-left: 18%;
 }
 #smoke29 {
    font-family: 'Cabin', sans-serif;
-   text-align:justify;
    font-size: 18px;
-   display: block;
-   width: 900px;
-   margin-left: 136px;
+   margin-left: 19%;
 }
 #smoke30 {
    font-family: 'Cabin', sans-serif;
-   text-align:justify;
    font-size: 18px;
-   display: block;
-   width: 900px;
-   margin-left: 143px;
+   margin-left: 20%;
 }
 #smoke31 {
    font-family: 'Cabin', sans-serif;
-   text-align:justify;
    font-size: 18px;
-   display: block;
-   width: 900px;
-   margin-left: 159px;
+   margin-left: 22%;
 }
 #smoke32 {
    font-family: 'Cabin', sans-serif;
-   text-align:justify;
    font-size: 18px;
-   display: block;
-   width: 900px;
-   margin-left: 174px;
+   margin-left: 24%;
 }
 #smoke33 {
    font-family: 'Cabin', sans-serif;
-   text-align:justify;
    font-size: 18px;
-   display: block;
-   width: 900px;
-   margin-left: 186px;
+   margin-left: 25%;
 }
 #smoke34 {
    font-family: 'Cabin', sans-serif;
-   text-align:justify;
    font-size: 18px;
-   display: block;
-   width: 900px;
-   margin-left: 166px;
+   margin-left: 21%;
 }
 #smoke35 {
    font-family: 'Cabin', sans-serif;
-   text-align:justify;
    font-size: 18px;
-   display: block;
-   width: 900px;
-   margin-left: 177px;
+   margin-left: 22%;
 }
 #smoke36 {
    font-family: 'Cabin', sans-serif;
-   text-align:justify;
    font-size: 18px;
-   display: block;
-   width: 900px;
-   margin-left: 178px;
+   margin-left: 22%;
 }
 #smoke37 {
    font-family: 'Cabin', sans-serif;
-   text-align:justify;
    font-size: 18px;
-   display: block;
-   width: 900px;
-   margin-left: 177px;
+   margin-left: 22%;
 }
 #smoke38 {
    font-family: 'Cabin', sans-serif;
-   text-align:justify;
    font-size: 18px;
-   display: block;
-   width: 900px;
-   margin-left: 183px;
+   margin-left: 24%;
 }
 #smoke39 {
    font-family: 'Cabin', sans-serif;
-   text-align:justify;
    font-size: 18px;
-   display: block;
-   width: 900px;
-   margin-left: 186px;
+   margin-left: 24%;
 }
 #smoke40 {
    font-family: 'Cabin', sans-serif;
-   text-align:justify;
    font-size: 18px;
-   display: block;
-   width: 900px;
-   margin-left: 197px;
+   margin-left: 27%;
 }
 #smoke41 {
    font-family: 'Cabin', sans-serif;
-   text-align:justify;
    font-size: 18px;
-   display: block;
-   width: 900px;
-   margin-left: 161px;
+   margin-left: 23%;
 }
 #smoke42 {
    font-family: 'Cabin', sans-serif;
-   text-align:justify;
    font-size: 18px;
-   display: block;
-   width: 900px;
-   margin-left: 160px;
+   margin-left: 23%;
 }
 #smoke43 {
    font-family: 'Cabin', sans-serif;
-   text-align:justify;
    font-size: 18px;
-   display: block;
-   width: 900px;
-   margin-left: 153px;
+   margin-left: 22%;
 }
 #smoke44 {
    font-family: 'Cabin', sans-serif;
-   text-align:justify;
    font-size: 18px;
-   display: block;
-   width: 900px;
-   margin-left: 160px;
+   margin-left: 23%;
+}
+
+
+/*Chapter 5*/
+#break {
+   padding-left: 33%;
 }
 
 /*Chapter 6*/
@@ -546,8 +380,6 @@ li a:hover {
    font-family: 'Cabin', sans-serif;
    text-align:center;
    font-size: 18px;
-   display: block;
-   width: 900px;
 }
 
 
@@ -558,32 +390,14 @@ li a:hover {
    text-align:center;
    line-height: 1.2;
    font-size: 18px;
-   display: inline-block;
-   width: 900px;
-}
-
-/*Chapter 10*/
-
-.song2 {
-   font-family: 'Cabin', sans-serif;
-   line-height: 1.2;
-   text-align:justify;
-   font-size: 18px;
-   display: block;
-   width: 900px;
-   margin-left:644px;
 }
 
 /*Chapter 11*/
 
 .scroll {
    font-family: 'Cabin', sans-serif;
-   line-height: 1.2;
-   text-align:justify;
+   text-align:center;
    font-size: 18px;
-   display: block;
-   width: 900px;
-   margin-left:560px;
 }
 
 /*Chapter 12*/
@@ -591,19 +405,15 @@ li a:hover {
 .verse12 {
       font-family: 'Cabin', sans-serif;
       line-height: 1.2;
-      text-align:justify;
+      text-align: center;
       font-size: 18px;
-      display: block;
-      width: 900px;
-      margin-left:560px;
    }
 
 #end {
-      display: inline-block;
-      width: 900px;
-      margin-left: 319px;
+      /*display: inline-block;*/
       text-align: center;
       font-size: 3em;
       font-family: 'Emilys Candy', cursive;
+      text-shadow: 2px 2px 6px #c6c6c6;
 
    }
