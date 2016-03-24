@@ -39,6 +39,11 @@ body {
    margin-right: 8%;
 }
 
+.main p {
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
 a {
    text-decoration: none;
    color: #778b7c;
